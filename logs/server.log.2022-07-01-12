@@ -1,0 +1,2 @@
+[2022-07-01 12:07:07,297] INFO [Controller id=0, targetBrokerId=2] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2022-07-01 12:07:07,297] INFO [Controller id=0, targetBrokerId=0] Node 0 disconnected. (org.apache.kafka.clients.NetworkClient)

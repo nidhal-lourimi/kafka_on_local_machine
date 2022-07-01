@@ -1,0 +1,5 @@
+[2022-07-01 12:12:42,555] INFO Kafka Connect stopping (org.apache.kafka.connect.runtime.Connect:67)
+[2022-07-01 12:12:42,559] INFO Stopping REST server (org.apache.kafka.connect.runtime.rest.RestServer:311)
+[2022-07-01 12:12:42,565] INFO Stopped http_8083@75fc1992{HTTP/1.1, (http/1.1)}{0.0.0.0:8083} (org.eclipse.jetty.server.AbstractConnector:381)
+[2022-07-01 12:12:42,567] INFO node0 Stopped scavenging (org.eclipse.jetty.server.session:149)
+[2022-07-01 12:12:42,572] INFO REST server stopped (org.apache.kafka.connect.runtime.rest.RestServer:328)

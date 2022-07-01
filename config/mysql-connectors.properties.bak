@@ -1,0 +1,23 @@
+name=mysql-connectors
+connector.class=io.confluent.connect.jdbc.JdbcSourceConnector
+tasks.max=1
+#topic.prefix=Customer
+topic=customer
+connection.url=jdbc:mysql://localhost:3306/kafka
+connection.user=nidhal
+connection.password=nidhal
+auto.create=true
+mode=bulk
+#incrementing.column.name=age
+#mode=incrementing
+#key.converter=io.confluent.connect.avro.AvroConverter
+#value.converter =io.confluent.connect.avro.AvroConverter
+#value.converter.enhanced.avro.schema.support=true
+#key.converter.enhanced.avro.schema.support=true
+#errors.log.enable = true
+#errors.log.include.messages = true
+key.converter=org.apache.kafka.connect.json.JsonConverter
+value.converter=org.apache.kafka.connect.json.JsonConverter
+
+bootstrap.servers=localhost:9093
+#key.converter.schemas.enable=false

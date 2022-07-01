@@ -1,0 +1,8 @@
+[2022-07-01 12:06:50,930] INFO Cleaner 0: Beginning cleaning of log __consumer_offsets-44 (kafka.log.LogCleaner)
+[2022-07-01 12:06:50,932] INFO Cleaner 0: Building offset map for __consumer_offsets-44... (kafka.log.LogCleaner)
+[2022-07-01 12:06:50,958] INFO Cleaner 0: Building offset map for log __consumer_offsets-44 for 1 segments in offset range [0, 2). (kafka.log.LogCleaner)
+[2022-07-01 12:06:50,973] INFO Cleaner 0: Offset map for log __consumer_offsets-44 complete. (kafka.log.LogCleaner)
+[2022-07-01 12:06:50,974] INFO Cleaner 0: Cleaning log __consumer_offsets-44 (cleaning prior to Fri Jul 01 11:50:19 CEST 2022, discarding tombstones prior to upper bound deletion horizon Thu Jan 01 01:00:00 CET 1970)... (kafka.log.LogCleaner)
+[2022-07-01 12:06:50,987] INFO Cleaner 0: Cleaning LogSegment(baseOffset=0, size=468, lastModifiedTime=1656669019885, largestRecordTimestamp=Some(0)) in log __consumer_offsets-44 into 0 with an upper bound deletion horizon 0 computed from the segment last modified time of 1656669019885,retaining deletes. (kafka.log.LogCleaner)
+[2022-07-01 12:06:51,025] INFO Cleaner 0: Beginning cleaning of log __consumer_offsets-44 (kafka.log.LogCleaner)
+[2022-07-01 12:06:51,025] INFO Cleaner 0: Building offset map for __consumer_offsets-44... (kafka.log.LogCleaner)
